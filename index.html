@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(./images/html-bg.png); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatmail</title>
+    <link rel="icon" type="image/x-icon" href="/images/fav-icon.svg">
+    <script src="https://kit.fontawesome.com/337002c4cc.js" crossorigin="anonymous"></script>
+    <style>
+        @media screen and (max-width:576px) {
+
+            body {
+                width: auto;
+            }
+        }
+        .primary-btn {
+            width: 100px;
+            height: 40px;
+            background-color: rgb(0, 123, 255);
+            transition-duration: .4s;
+            color: white;
+            border: 1px solid rgb(0, 123, 255);
+            border-radius: 5px;
+        }
+
+        .primary-btn:hover {
+            background-color: transparent;
+            color: black;
+        }
+
+        .secondary-btn {
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: transparent;
+            transition-duration: .4s;
+            border: 1px solid rgb(0, 123, 255);
+            color: black;
+        }
+
+        .secondary-btn:hover {
+            background-color: rgb(0, 123, 255);
+            color: white;
+        }
+
+        .choose-btn {
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: transparent;
+            transition-duration: .4s;
+            border: 1px solid white;
+            color: white;
+        }
+
+        .choose-btn:hover {
+            background-color: rgb(0, 123, 255);
+            color: white;
+        }
+
+        .nav-icon {
+            transition-duration: .4s;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-icon:hover {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body style="width: 800px; margin-right: auto; margin-left: auto;">
+    <header>
+        <!-- Nav Bar Start -->
+        <nav
+            style="background-color: rgb(0, 123, 255);padding: 20px; display: flex; justify-content: center; gap: 20px;">
+            <a class="nav-icon" href="#"><i class="fa-brands fa-facebook fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-brands fa-twitter fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-brands fa-google fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-solid fa-wifi fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-brands fa-youtube fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-solid fa-v fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-brands fa-pinterest fa-1x "></i></a>
+            <a class="nav-icon" href="#"><i class="fa-brands fa-linkedin fa-1x "></i></a>
+        </nav>
+        <div class="banner"
+            style="background-image: url(./images/header-bg.webp);background-repeat: no-repeat; background-size: cover; width: 100%; text-align: center; padding-top: 40px;">
+            <img style="margin-bottom: 20px;" src="images/top-logo.webp" alt="Logo">
+            <div style="display: flex; gap: 10px; justify-content: center;">
+                <a class="nav-icon" href="#">Home</a>
+                <a class="nav-icon" href="#">Service</a>
+                <a class="nav-icon" href="#">Contact</a>
+            </div>
+            <img style="position: relative;top: 20px;" src="images/header-img.webp" alt="">
+        </div>
+        <!-- Nav Bar End -->
+    </header>
+    <main style="background-color: white;color: rgb(69, 68, 68);">
+        <!-- Column Section Start -->
+        <section style="padding: 30px; text-align: center; ">
+            <h2>Create Your Template Easier</h2>
+            <img src="images/divider-full.webp" alt="">
+            <div class="column-container" style="display: flex;  margin-top: 50px;">
+                <div>
+                    <i style="color: white; background-color: #01A4E9; padding: 5px; border-radius: 50%;"
+                        class="fa-solid fa-up-down-left-right fa-3x"></i>
+                    <p style="font-size: 18px;">Column One</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eimodtempor</p>
+                </div>
+                <div>
+                    <i style="color: white; background-color: rgba(72, 134, 11, 0.779); padding: 5px; border-radius: 50%;"
+                        class="fa-solid fa-screwdriver-wrench fa-3x"></i>
+                    <p style="font-size: 18px;">Column Two</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eimodtempor</p>
+                </div>
+                <div>
+                    <i style="color: white; background-color: rgb(232, 41, 41); padding: 5px; border-radius: 50%;"
+                        class="fa-solid fa-mobile-screen fa-3x"></i>
+                    <p style="font-size: 18px;">Column Three</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eimodtempor</p>
+                </div>
+            </div>
+        </section>
+        <!-- Column Section End -->
+
+        <!-- Support Section Start -->
+        <section class="support-container"
+            style="display: flex; justify-content: center; gap: 20px; background-color: #F7F7F7; padding: 30px;">
+            <img src="images/support-section.webp" alt="">
+            <div>
+                <p style="font-size: 18px;">Support Section</p>
+                <img src="images/divider-left.webp" alt="">
+                <p style="width: 350px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, in beatae
+                    cumque hic debitis! Ipsam, ab, voluptates, laudantium dicta quasi rerum cum blanditiis Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Omnis, in beatae cumque hic debitis! Ipsam, ab,
+                    voluptates, laudantium dicta quasi rerum cum blanditiis</p>
+                <button class="primary-btn" type="button">Learn More</button>
+            </div>
+        </section>
+        <!-- Support Section End -->
+
+        <!-- Service Section Start -->
+        <section style="display: flex; justify-content: center; padding: 30px;  gap: 30px;">
+            <div>
+                <img src="images/service-1.webp" alt="">
+                <p style="font-size: 18px;">Customer Service</p>
+                <img src="images/divider-left.webp" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Reprehenderit, eum.</p>
+                <button class="primary-btn" type="button">Learn More</button>
+            </div>
+            <div>
+                <img src="images/service-2.webp" alt="">
+                <p style="font-size: 18px;">Products Service</p>
+                <img src="images/divider-left.webp" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Reprehenderit, eum.</p>
+                <button class="primary-btn" type="button">Learn More</button>
+            </div>
+        </section>
+        <section style="display: flex; justify-content: center; gap: 25px; padding: 30px;">
+            <div>
+                <img src="images/col-1.webp" alt="">
+                <p style="font-size: 18px;">Column One</p>
+                <p>Lorem ipsum dolor sit amet <br> consectetur Voluptas archi <br>r magni modi itaque.</p>
+                <button class="primary-btn" type="button">Learn More</button>
+            </div>
+            <div>
+                <img src="images/col-2.webp" alt="">
+                <p style="font-size: 18px;">Column Two</p>
+                <p>Lorem ipsum dolor sit amet <br> consectetur Voluptas archi <br>r magni modi itaque.</p>
+                <button class="primary-btn" type="button">Learn More</button>
+            </div>
+            <div>
+                <img src="images/col-3.webp" alt="">
+                <p style="font-size: 18px;">Column Three</p>
+                <p>Lorem ipsum dolor sit amet <br> consectetur Voluptas archi <br>r magni modi itaque.</p>
+                <button class="primary-btn" type="button">Learn More</button>
+            </div>
+        </section>
+        <section style="text-align: center; padding: 30px;">
+            <img src="images/image10.webp" alt="">
+            <h2 style="color: #01A4E9;">TemplateBuilder <br> make you create <br> layout easier</h2>
+            <img src="images/divider-full.webp" alt="">
+            <p style="width: 350px; margin-right: auto; margin-left: auto;">Lorem ipsum dolor sit amet, consetetur
+                sadipscing elitr, sed diam nonumy eirmod tempam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
+                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempam et justo duo dolores et ea rebum.</p>
+            <button class="primary-btn" type="button">Download</button>
+            <button class="secondary-btn" type="button">Read More</button>
+        </section>
+        <section style="display: flex; justify-content: space-around; padding: 30px;">
+            <div style="text-align: right;">
+                <p style="font-size: 18px;">Select Your Layout</p>
+                <img src="images/divider-right.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Tempore, sunt.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;
+            align-items: center;">
+                <div style="height: 30px;width: 1px; background-color: black;"></div>
+                <p style="font-size: 30px; background-color: #01A4E9;padding: 20px; border-radius: 50%; color: white;">1
+                </p>
+                <div style="height: 30px;width: 1px; background-color: black;"></div>
+            </div>
+            <div>
+                <p style="font-size: 18px;">Select Your Color</p>
+                <img src="images/divider-left.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Tempore, sunt.</p>
+            </div>
+        </section>
+        <section style="display: flex; gap: 30px; padding: 30px; align-items: center;">
+            <div style="text-align: right;">
+                <p style="font-size: 18px;">Select Your Layout</p>
+                <img src="images/divider-right.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Tempore, sunt.</p>
+            </div>
+            <div>
+                <img src="images/image11.webp" alt="">
+            </div>
+            <div>
+                <p style="font-size: 18px;">Select Your Color</p>
+                <img src="images/divider-left.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Tempore, sunt.</p>
+            </div>
+        </section>
+        <!-- Service Section End -->
+
+        <!-- Design Team Section Start -->
+        <section style="text-align: center;">
+            <h2 style="color: #01A4E9;">Our Design Team</h2>
+            <p style="font-size: 14px;">We Are Love In our Work</p>
+            <div style="display: flex; gap: 40px;justify-content: center;">
+                <div>
+                    <img src="images/image12.webp" alt="">
+                    <p style="font-weight: 900;">Jhon Jo</p>
+                    <p>Web Designer</p>
+                </div>
+                <div>
+                    <img src="images/image13.webp" alt="">
+                    <p style="font-weight: 900;">Bokkor</p>
+                    <p>Programmer</p>
+                </div>
+                <div>
+                    <img src="images/image14.webp" alt="">
+                    <p style="font-weight: 900;">Mewmew</p>
+                    <p> Designer</p>
+                </div>
+            </div>
+        </section>
+        <section
+            style="background-image: url(./images/background-image2.webp); background-attachment: fixed; padding: 50px; background-repeat: no-repeat; background-size: cover; text-align: center;">
+            <h2 style="color: white; font-size: 30px;">Why You Choose Us!</h2>
+            <button class="choose-btn" type="button">Learn More</button>
+        </section>
+        <!-- Design Team Section End -->
+
+        <!-- Price Section Start -->
+        <section style="padding: 30px; text-align: center;">
+            <h2 style="color: #01A4E9;">Product Feutures Price</h2>
+            <p style="margin-bottom: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae <br>
+                inventore architecto cum facere perferendis possimus.</p>
+            <div style="display: flex; justify-content: center; gap: 30px; margin-top: 20px;">
+                <div style="border: 1px solid gray;">
+                    <div style=" color: white; background-color: #01A4E9; padding-top: 20px; padding-bottom: 10px;">
+                        <p style="font-size: 20px;">FREE</p>
+                        <p>$<span style="font-size: 60px; font-weight:bold">0</span></p>
+                        <p>/mo</p>
+                        <button class="choose-btn" type="button">Add to cart</button>
+                    </div>
+                    <div style="padding: 5px; color: rgb(137, 135, 135);">
+                        <p>100bt Transfer Data</p>
+                        <hr>
+                        <p>100 image Uploaded</p>
+                        <hr>
+                        <p>Unlimiteded Email</p>
+                    </div>
+                </div>
+                <div style="border: 1px solid gray;">
+                    <div style=" color: white; background-color: #01A4E9; padding-top: 20px; padding-bottom: 10px;">
+                        <p style="font-size: 20px;">PRO</p>
+                        <p>$<span style="font-size: 60px; font-weight:bold">9</span></p>
+                        <p>/mo</p>
+                        <button class="choose-btn" type="button">Add to cart</button>
+                    </div>
+                    <div style="padding: 5px; color: rgb(137, 135, 135);">
+                        <p>100bt Transfer Data</p>
+                        <hr>
+                        <p>100 image Uploaded</p>
+                        <hr>
+                        <p>Unlimiteded Email</p>
+                    </div>
+                </div>
+                <div style="border: 1px solid gray;">
+                    <div style=" color: white; background-color: #01A4E9; padding-top: 20px; padding-bottom: 10px;">
+                        <p style="font-size: 20px;">EXPART</p>
+                        <p>$<span style="font-size: 60px; font-weight:bold">19</span></p>
+                        <p>/mo</p>
+                        <button class="choose-btn" type="button">Add to cart</button>
+                    </div>
+                    <div style="padding: 5px; color: rgb(137, 135, 135);">
+                        <p>100bt Transfer Data</p>
+                        <hr>
+                        <p>100 image Uploaded</p>
+                        <hr>
+                        <p>Unlimiteded Email</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="display: flex; justify-content: center; gap: 40px;">
+            <div>
+                <p style="font-size: 18px; background-color: #01A4E9; color: white;">30<br><span style="background-color: wheat; color: grey;">May</span></p>
+            </div>
+            <div style="height: 100px; width: 1px; background-color: gray;"></div>
+            <div>
+                <h2 style="color: #01A4E9;">Announce Event</h2>
+                <p style="font-size: 12px;">By Anyone 12/02/2023</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit br . <br> Laudantium, dicta.</p>
+            </div>
+        </section>
+        <!-- Price Section End -->
+    </main>
+    <footer >
+        <div style="background-color: rgb(42, 42, 42); padding: 40px;">
+        <nav
+        style="padding: 20px; display: flex; justify-content: center; gap: 20px;">
+        <a class="nav-icon" href="#"><i class="fa-brands fa-facebook fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-brands fa-twitter fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-brands fa-google fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-solid fa-wifi fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-brands fa-youtube fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-solid fa-v fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-brands fa-pinterest fa-1x "></i></a>
+        <a class="nav-icon" href="#"><i class="fa-brands fa-linkedin fa-1x "></i></a>
+    </nav>
+   <div style="text-align: center; margin-bottom: 10px;">
+    <img  src="images/top-logo.webp" alt="">
+   </div>
+    <div style="display: flex; gap: 20px; justify-content:center;">
+        <a style="color: #01A4E9;" href="#">unsubscribe</a>
+        <div style="height: 20px; width: 1px; background-color: #01A4E9;"></div>
+        <a style="color: #01A4E9;" href="#">update preferance</a>
+        <div style="height: 20px; width: 1px; background-color: #01A4E9;"></div>
+        <a style="color: #01A4E9;" href="#">visit website</a>
+    </div>
+</div>
+<div style="background-color: #01A4E9; color: white; padding: 10px; font-size: 14px; text-align: center;">
+    <p >Your company here , all rights reserved 2013 ©</p>
+</div>
+    </footer>
+</body>
+
+</html>
